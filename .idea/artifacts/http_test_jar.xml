@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="http_test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/http_test_jar</output-path>
+    <root id="archive" name="http_test.jar">
+      <element id="module-output" name="http_test" />
+      <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-smart-2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/httpcore-4.4.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-logging-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-codec-1.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/asm-1.0.2.jar" path-in-jar="/" />
+      <element id="library" level="project" name="lib" />
+    </root>
+  </artifact>
+</component>
